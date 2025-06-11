@@ -64,7 +64,6 @@
       "plugin:storybook/recommended"
     ]
   },
-  "packageManager": "yarn@4.5.0",
   "msw": {
     "workerDirectory": [
       "public"
