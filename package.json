@@ -26,7 +26,8 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "init-msw": "msw init public/",
-    "test-storybook": "test-storybook"
+    "test-storybook": "test-storybook",
+    "chromatic": "npx chromatic --project-token=chpt_177230d663199c2"
   },
   "devDependencies": {
     "@eslint/js": "^9.9.0",
@@ -41,6 +42,7 @@
     "@vitejs/plugin-react": "^4.3.1",
     "@vitest/browser": "^3.2.3",
     "@vitest/coverage-v8": "^3.2.3",
+    "chromatic": "^12.2.0",
     "eslint": "^9.9.0",
     "eslint-plugin-react": "^7.34.1",
     "eslint-plugin-react-hooks": "^5.1.0-rc.0",
